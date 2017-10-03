@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Joey Bright",
   "license": "MIT",
+  "bin": {
+    "jsxhtml": "./bin/jsxhtml.js"
+  },
   "scripts": {
     "start": "NODE_ENV=production node ./bin/jsxhtml.js",
     "help": "node ./bin/jsxhtml.js --help"
