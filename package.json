@@ -6,7 +6,7 @@
   "license": "MIT",
   "preferGlobal": true,
   "bin": {
-    "jsxhtml": "./bin/jsxhtml.js"
+    "jsxhtml": "NODE_ENV=production ./bin/jsxhtml.js"
   },
   "scripts": {
     "start": "NODE_ENV=production node ./bin/jsxhtml.js",
