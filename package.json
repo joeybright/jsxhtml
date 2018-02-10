@@ -4,6 +4,7 @@
   "main": "index.js",
   "author": "Joey Bright",
   "license": "MIT",
+  "preferGlobal": true,
   "bin": {
     "jsxhtml": "./bin/jsxhtml.js"
   },
