@@ -1,12 +1,12 @@
 {
   "name": "jsxhtml",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "author": "Joey Bright",
   "license": "MIT",
   "preferGlobal": true,
   "bin": {
-    "jsxhtml": "NODE_ENV=production ./bin/jsxhtml.js"
+    "jsxhtml": "./bin/jsxhtml.js"
   },
   "scripts": {
     "start": "NODE_ENV=production node ./bin/jsxhtml.js",
